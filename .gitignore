@@ -13,18 +13,22 @@
 *.userprefs
 
 # Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
-build/
-bld/
-bin/
-Bin/
-obj/
-Obj/
+#[Dd]ebug/
+#[Dd]ebugPublic/
+#[Rr]elease/
+#[Rr]eleases/
+#x64/
+#x86/
+#build/
+#bld/
+#bin/
+#Bin/
+#obj/
+#Obj/
+
+# excluding the build paths conflicted with node_modules
+WebApplication2/bin
+WebApplication2/obj
 
 # Visual Studio 2015 cache/options directory
 .vs/
